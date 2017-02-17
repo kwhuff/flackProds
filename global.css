@@ -9,6 +9,8 @@ img{
   background-color: black;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid #B8BBBA;
+  z-index: +1;
 }
 .headerLogo{
   margin-top: 18px;
@@ -27,12 +29,25 @@ img{
   font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
+  transition: 1s ease;
+}
+.headerLinks:hover{
+  color: white;
+  text-decoration:
 }
 #landscape{
+  margin-top:80px;
   height: 600px;
   background-image: url('/img/backgroundPhoto.png');
   background-size: cover;
+  /*position: fixed;*/
+  width: 100%;
+  z-index: -1;
 }
 .landscapeInfo{
-  padding-top: 100;
+  font-family: 'Assistant', sans-serif;
+  font-size: 47px;
+  padding-top: 30vh;
+  margin-left: 7vw;
+  z-index: 1;
 }
