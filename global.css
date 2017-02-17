@@ -22,6 +22,7 @@ img{
   text-align: right;
   margin-top: 25px;
   font-size: 1vh;
+  margin-right: 5vw;
 }
 .headerLinks>a{
   color: #B8BBBA;
@@ -32,7 +33,7 @@ img{
   color: white;
 }
 .headerLinks{
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #B8BBBA;
   font-size: 17px;
   margin-left: 10px;
@@ -53,16 +54,20 @@ img{
   z-index: -1;
 }
 .landscapeInfo{
-  font-family: 'Nixie One', cursive;
-  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
   padding-top: 30vh;
   margin-left: 7vw;
   z-index: 1;
-  /*color: rgb(59, 59, 59);*/
   color: black;
+  margin-bottom: 0;
 }
-.landscapeSpace{
-  /*border-bottom: 3px solid black;*/
+.landscapeSubtext{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  margin-left: 7vw;
+  z-index: 1;
+  color: black;
 }
 .homeBody{
   /*margin-top: 670px;*/
