@@ -81,5 +81,14 @@ img{
 .demoVid{
   margin-left: 20px;
   margin-right: 20px;
-
+}
+.aboutSection{
+  margin-top: 5vh;
+}
+.videoText{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+.videoTitle{
+  font-family: 'Raleway', sans-serif;
 }
