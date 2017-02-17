@@ -107,3 +107,25 @@ img{
   padding-left: 3vw;
   padding-right: 3vw;
 }
+#weddingVid1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#weddingVid2{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#weddingVid3{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.noDisplay{
+  display: none;
+}
+.smallPic{
+  cursor: pointer;
+  transition: .2s ease;
+}
+.smallPic:hover{
+  border: 1px solid #857455;
+}
