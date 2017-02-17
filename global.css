@@ -9,8 +9,8 @@ img{
   background-color: black;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid #B8BBBA;
-  z-index: +1;
+  border-bottom: 1px solid #857455;
+  z-index: 1;
 }
 .headerLogo{
   margin-top: 18px;
@@ -20,8 +20,16 @@ img{
 }
 .allHeaderLinks{
   text-align: right;
-  margin-top: 22px;
+  margin-top: 25px;
   font-size: 1vh;
+}
+.headerLinks>a{
+  color: #B8BBBA;
+  text-decoration: none;
+  transition: .8s ease;
+}
+.headerLinks>a:hover{
+  color: white;
 }
 .headerLinks{
   font-family: 'Assistant', sans-serif;
@@ -29,11 +37,11 @@ img{
   font-size: 17px;
   margin-left: 10px;
   margin-right: 10px;
-  transition: 1s ease;
+  transition: .8s ease;
+  border-bottom: 1px solid black;
 }
 .headerLinks:hover{
-  color: white;
-  text-decoration:
+  border-bottom: 1px solid white;
 }
 #landscape{
   margin-top:80px;
@@ -45,9 +53,28 @@ img{
   z-index: -1;
 }
 .landscapeInfo{
-  font-family: 'Assistant', sans-serif;
-  font-size: 47px;
+  font-family: 'Nixie One', cursive;
+  font-size: 40px;
   padding-top: 30vh;
   margin-left: 7vw;
   z-index: 1;
+  /*color: rgb(59, 59, 59);*/
+  color: black;
+}
+.landscapeSpace{
+  /*border-bottom: 3px solid black;*/
+}
+.homeBody{
+  /*margin-top: 670px;*/
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+  background-color: black;
+  border-top: 1px solid #857455;
+  text-align: center;
+}
+.demoVid{
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
