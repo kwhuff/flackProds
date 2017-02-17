@@ -46,7 +46,7 @@ img{
 #landscape{
   margin-top:80px;
   height: 600px;
-  background-image: url('/img/backgroundPhoto.png');
+  background-image: url('backgroundPhoto.png');
   background-size: cover;
   /*position: fixed;*/
   width: 100%;
