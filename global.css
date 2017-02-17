@@ -82,6 +82,9 @@ img{
 .demoVid{
   margin-left: 20px;
   margin-right: 20px;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 0;*/
+
 }
 .aboutSection{
   margin-top: 5vh;
@@ -128,4 +131,15 @@ img{
 }
 .smallPic:hover{
   border: 1px solid #857455;
+}
+.videoTitle2{
+  font-family: 'Raleway', sans-serif;
+  color: #857455;
+  text-align: left;
+}
+.weddingText2{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: left;
 }
