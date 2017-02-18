@@ -242,7 +242,21 @@ img{
 }
 .packagesArea{
   border-top: 2px solid #857455;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  margin-right: 2vw;
+  margin-left: 2vw;
   align-self: center;
+}
+.middleColumn{
+  border-left: 2px solid #857455;
+  border-right: 2px solid #857455;
+}
+.rightColumn{
+  /*border-right: 2px solid #857455;*/
+}
+.packageText{
+  font-size:20px;
+}
+.basicPrice{
+  font-size: 35px;
+  margin-right:28px;
 }
