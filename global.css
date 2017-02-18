@@ -1,3 +1,15 @@
+/*body{
+  background-image: url('backgroundPhoto.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}*/
+body{
+  padding: 0;
+  margin: 0;
+}
 *{
   box-sizing: border-box;
 }
@@ -48,14 +60,16 @@ img{
   margin-top:80px;
   height: 600px;
   background-image: url('backgroundPhoto.png');
+  overflow-x: hidden;
   background-size: cover;
+  background-position: center;
   /*position: fixed;*/
   width: 100%;
   z-index: -1;
 }
 .landscapeInfo{
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 5vw;
   padding-top: 30vh;
   margin-left: 7vw;
   z-index: 1;
@@ -64,7 +78,7 @@ img{
 }
 .landscapeSubtext{
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  font-size: 2vw;
   margin-left: 7vw;
   z-index: 1;
   color: black;
@@ -106,21 +120,24 @@ img{
   font-size: 18px;
 }
 .weddingSection{
-  margin-top: 5vh;
+  margin-top: 4vh;
   padding-left: 3vw;
   padding-right: 3vw;
 }
 #weddingVid1{
   margin-left: 20px;
   margin-right: 20px;
+  /*width: 100%;*/
 }
 #weddingVid2{
   margin-left: 20px;
   margin-right: 20px;
+  /*width: 100%;*/
 }
 #weddingVid3{
   margin-left: 20px;
   margin-right: 20px;
+  /*width: 100%;*/
 }
 .noDisplay{
   display: none;
@@ -142,4 +159,9 @@ img{
   color: white;
   font-size: 18px;
   text-align: left;
+}
+.weddingBackground{
+  background-color: white;
+  margin-right: 0;
+  margin-left: 0;
 }

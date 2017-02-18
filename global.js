@@ -10,9 +10,6 @@ weddingButton2.addEventListener("click", displayWedding2)
 weddingButton3.addEventListener("click", displayWedding3)
 
 function displayWedding1(){
-  // weddingVideo1.className -= ' noDisplay'
-  // weddingVideo2.className += ' noDisplay'
-  // weddingVideo3.className += ' noDisplay'
   $(weddingVideo1).removeClass("noDisplay")
   $(weddingVideo2).addClass("noDisplay")
   $(weddingVideo3).addClass("noDisplay")
