@@ -7,7 +7,7 @@ packagesLink.addEventListener("click", goToPackages)
 vendorsLink.addEventListener("click", goToVendors)
 
 function goToHome(){
-  window.location.href = '/index.html'
+  window.location.href = 'flackProds/index.html'
 }
 function goToPackages(){
   window.location.href = 'flackProds/packages.html'
