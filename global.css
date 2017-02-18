@@ -67,7 +67,7 @@ img{
   border-bottom: 1px solid white;
 }
 #landscape{
-  margin-top:80px;
+  margin-top: 70px;
   height: 600px;
   background-image: url('backgroundPhoto.png');
   overflow-x: hidden;
@@ -79,17 +79,17 @@ img{
 }
 .landscapeInfo{
   font-family: 'Raleway', sans-serif;
-  font-size: 5vw;
-  padding-top: 30vh;
-  margin-left: 7vw;
+  font-size: 6vw;
+  padding-top: 25vh;
+  margin-left: 6vw;
   z-index: 1;
   color: black;
   margin-bottom: 0;
 }
 .landscapeSubtext{
   font-family: 'Raleway', sans-serif;
-  font-size: 2vw;
-  margin-left: 7vw;
+  font-size: 3vw;
+  margin-left: 6vw;
   z-index: 1;
   color: black;
 }

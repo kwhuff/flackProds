@@ -21,7 +21,7 @@ function goToHome(){
   window.location.href = '/'
 }
 function goToPackages(){
-  window.location.href = '//flackProds/packages.html'
+  window.location.href = '/flackProds/packages.html'
 }
 function goToVendors(){
   window.location.href = '/vendors.html'
