@@ -165,3 +165,16 @@ img{
   margin-right: 0;
   margin-left: 0;
 }
+.awardLogo1{
+  align-items: center;
+  padding: 0;
+}
+.awardLogo2{
+  margin-top: 7vh;
+  align-items: center;
+  padding: 0;
+}
+.awardFooter{
+  background-color: white;
+  position: static;
+}
