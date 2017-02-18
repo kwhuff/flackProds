@@ -175,6 +175,27 @@ img{
   padding: 0;
 }
 .awardFooter{
-  background-color: white;
+  background-color: #B8BBBA;
   position: static;
+}
+.mainFooter{
+  background-color: black;
+  font-size: 30px;
+  letter-spacing: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  align-content: center;
+}
+.footerContacts{
+  color: #B8BBBA;
+  align-items: center;
+  /*font-size: 50px;
+  height: 50px;
+  width: 50px;*/
+}
+.copyright{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  letter-spacing: normal;
+  color: white;
 }
