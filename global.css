@@ -215,7 +215,7 @@ img{
   padding-top: 50px;
   position: relative;
   z-index: 1;
-  height: 900px;
+  /*height: 900px;*/
 }
 
 .packagesMain .bg {
@@ -225,13 +225,20 @@ img{
   bottom: 0;
   left: 0;
   right: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   background: url('packagesBackground.jpg') center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: .4;
+  opacity: .5;
   width: 100%;
   height: 100%;
+  border-bottom: 2px solid #857455;
+  overflow: hidden;
+}
+.bg{
+  z-index: -1;
 }
 .packagesMain > h1 {
   font-size: 50px;
@@ -250,13 +257,37 @@ img{
   border-left: 2px solid #857455;
   border-right: 2px solid #857455;
 }
-.rightColumn{
-  /*border-right: 2px solid #857455;*/
-}
 .packageText{
-  font-size:20px;
+  font-size:1.5vw;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .basicPrice{
-  font-size: 35px;
+  font-size: 4.7vh;
   margin-right:28px;
+  font-weight: bold;
+}
+.disclaimer1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.discountText{
+  font-size: 22px;
+}
+.extraText{
+  font-size: 20px;
+}
+.packageCell{
+  height: 400px;
+}
+.extraOffers{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background-color: #857455;
+  opacity: 1;
+  border-bottom: 1px solid black;
+}
+.boldText{
+  font-weight: bold;
 }
