@@ -9,6 +9,23 @@ weddingButton1.addEventListener("click", displayWedding1)
 weddingButton2.addEventListener("click", displayWedding2)
 weddingButton3.addEventListener("click", displayWedding3)
 
+var homeLink = document.getElementById('homeLink')
+var packagesLink = document.getElementById('packagesLink')
+var vendorsLink = document.getElementById('vendorsLink')
+
+homeLink.addEventListener("click", goToHome)
+packagesLink.addEventListener("click", goToPackages)
+vendorsLink.addEventListener("click", goToVendors)
+
+function goToHome(){
+  window.location.href = '/'
+}
+function goToPackages(){
+  window.location.href = '/packages.html'
+}
+function goToVendors(){
+  window.location.href = '/vendors.html'
+}
 function displayWedding1(){
   $(weddingVideo1).removeClass("noDisplay")
   $(weddingVideo2).addClass("noDisplay")
