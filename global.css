@@ -216,6 +216,7 @@ img{
   position: relative;
   z-index: 1;
   /*height: 900px;*/
+  font-weight: bold;
 }
 
 .packagesMain .bg {
