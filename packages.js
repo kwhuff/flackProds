@@ -10,8 +10,8 @@ function goToHome(){
   window.location.href = 'index.html'
 }
 function goToPackages(){
-  window.location.href = '/flackProds/packages.html'
+  window.location.href = 'packages.html'
 }
 function goToVendors(){
-  window.location.href = '/flackProds/vendors.html'
+  window.location.href = 'vendors.html'
 }
