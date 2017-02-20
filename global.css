@@ -379,4 +379,12 @@ li>a:hover{
     height: 90%;
     width: 100%;
   }
+  #landscape{
+    height: 300px;
+  }
+  .headerLogo{
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 2vw;
+  }
 }
