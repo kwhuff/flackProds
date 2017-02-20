@@ -207,14 +207,11 @@ img{
   letter-spacing: 15px;
   padding-top: 35px;
   padding-bottom: 35px;
-  align-content: center;
+  /*align-content: center;*/
 }
 .footerContacts{
   color: #B8BBBA;
-  align-items: center;
-  /*font-size: 50px;
-  height: 50px;
-  width: 50px;*/
+  align-content: center;
 }
 .copyright{
   font-family: 'Raleway', sans-serif;
@@ -307,6 +304,11 @@ img{
 }
 .horBreak{
   color: black;
+}
+.linkLogo{
+  align-items: center;
+  align-content: center;
+  align-self: center;
 }
 .disclaimer2{
   font-size: 10;
