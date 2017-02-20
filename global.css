@@ -265,7 +265,7 @@ img{
   padding-right: 35px;
 }
 .basicPrice{
-  font-size: 4.7vh;
+  font-size: 2.7vw;
   margin-right:28px;
   font-weight: bold;
 }
@@ -308,8 +308,9 @@ img{
 }
 .vendorTitle{
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
-  padding-top: 90px;
+  font-size: 50px;
+  padding-top: 110px;
+  font-weight: bold;
 }
 .vendorIntro{
   margin-left: 30%;
