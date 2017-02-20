@@ -180,8 +180,10 @@ img{
   margin-left: 0;
 }
 .awardLogo1{
+  margin-top: 10px;
   align-items: center;
   padding: 0;
+  border-right: 2px solid #857455;
 }
 .awardLogo2{
   margin-top: 7vh;
@@ -189,7 +191,7 @@ img{
   padding: 0;
 }
 .awardFooter{
-  background-color: #B8BBBA;
+  background-color: black;
   position: static;
 }
 .mainFooter{
@@ -337,4 +339,7 @@ li>a:hover{
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid #857455;
+}
+.awardImg{
+  height: 125px;
 }
