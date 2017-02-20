@@ -29,12 +29,14 @@ img{
   margin-bottom: 10px;
   margin-left: 5vw;
   height: 40px;
+  /*width: 15vw;*/
 }
 .allHeaderLinks{
   text-align: right;
   margin-top: 25px;
-  font-size: 1vh;
+  /*font-size: 1vh;*/
   margin-right: 5vw;
+  height: 40px;
 }
 .headerLinks>a{
   color: #B8BBBA;
@@ -48,8 +50,9 @@ img{
   font-family: 'Raleway', sans-serif;
   color: #B8BBBA;
   font-size: 17px;
-  margin-left: 10px;
-  margin-right: 10px;
+  word-wrap: none;
+  margin-left: 1px;
+  margin-right: 1px;
   transition: .4s ease;
   border-bottom: 1px solid black;
   cursor: pointer;
