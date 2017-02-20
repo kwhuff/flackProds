@@ -110,9 +110,14 @@ img{
 .demoVid{
   margin-left: 20px;
   margin-right: 20px;
-  /*margin-top: 20px;*/
-  /*margin-bottom: 0;*/
-
+  margin-top: 0;
+  margin-bottom: 0;
+  /*height: 360px;
+  width: 100%;*/
+}
+.demo{
+  height: 360px;
+  width: 100%;
 }
 .aboutSection{
   margin-top: 5vh;
@@ -120,6 +125,7 @@ img{
 .videoText{
   font-family: 'Raleway', sans-serif;
   color: white;
+  font-size: 18px;
 }
 .videoTitle{
   font-family: 'Raleway', sans-serif;
@@ -127,6 +133,7 @@ img{
 }
 .demoBody{
   border-bottom: 2px solid #857455;
+  /*height: 400px;*/
 }
 .weddingText{
   font-family: 'Raleway', sans-serif;
@@ -342,4 +349,32 @@ li>a:hover{
 }
 .awardImg{
   height: 125px;
+}
+.weddingVidArea{
+}
+/*Begin Mobile Views*/
+@media (max-width: 930px) {
+  .headerLinks {
+    font-size: 13px;
+  }
+  .headerLinks2 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 790px) {
+  .headerLinks {
+    visibility: hidden;
+  }
+  .headerLinks2 {
+    visibility: hidden;
+  }
+  .landscapeInfo{
+    font-size: 5vw;
+  }
+}
+@media (max-width: 560px) {
+  .demo{
+    height: 90%;
+    width: 100%;
+  }
 }
