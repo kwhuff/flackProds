@@ -24,7 +24,7 @@ function goToPackages(){
   window.location.href = '/flackProds/packages.html'
 }
 function goToVendors(){
-  window.location.href = '/vendors.html'
+  window.location.href = '/flackProds/vendors.html'
 }
 function displayWedding1(){
   $(weddingVideo1).removeClass("noDisplay")
@@ -43,3 +43,27 @@ function displayWedding3(){
   $(weddingVideo2).addClass("noDisplay")
   $(weddingVideo3).removeClass("noDisplay")
 }
+
+// $(function() {
+//     $(window).scroll(function(){
+//         $("#landscape").css("top", $(this).scrollTop()/3) +px;
+//     });
+// });
+
+$(window).scroll(function () {
+
+   $('#landscape').css({
+      'top' : ($(this).scrollTop()/6)+"px"
+   });
+
+});
+
+// $(document).ready(function() {
+// // Cache the Window object
+//  windowScroll = $(this).scrollTop();
+//  $(window).scroll(function () {
+//     $('#landscape').css({
+//        'top' : -($(this).scrollTop()/3)+"px"
+//     });
+//  });
+// });
