@@ -59,12 +59,7 @@ function displayWedding3(){
 }
 
 $(window).scroll(function () {
-
    $('#landscape').css({
       'top' : ($(this).scrollTop()/6)+"px"
    });
-
 });
-$(document).ready(function () {
-       $('.dropdown-toggle').dropdown();
-   });
