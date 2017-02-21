@@ -560,6 +560,7 @@ li>a:hover{
   }
   &.is-exiting {
       .scene_element {
+        -webkit-animation-direction: alternate-reverse;
         animation-direction: alternate-reverse;
       }
   }

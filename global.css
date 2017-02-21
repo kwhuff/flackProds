@@ -634,5 +634,6 @@ li > a:hover {
 }
 
 .m-scene.is-exiting .scene_element {
+  -webkit-animation-direction: alternate-reverse;
   animation-direction: alternate-reverse;
 }
