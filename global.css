@@ -42,9 +42,9 @@ body{
 }
 .burgerLink{
   text-align: right;
-  margin-top: 20px;
+  margin-top: 14px;
   /*font-size: 1vh;*/
-  margin-right: 20px;
+  margin-right: 14px;
   margin-bottom: 20px;
   height: 40px;
   font-size: 25px;
@@ -62,8 +62,8 @@ body{
   color: #B8BBBA;
   font-size: 17px;
   word-wrap: none;
-  margin-left: 1px;
-  margin-right: 1px;
+  /*margin-left: 1px;
+  margin-right: 1px;*/
   transition: .4s ease;
   border-bottom: 1px solid black;
   cursor: pointer;
@@ -79,6 +79,9 @@ body{
 }
 .headerLinks:hover{
   border-bottom: 1px solid white;
+}
+.menuEdit{
+  padding-bottom: 3px;
 }
 #landscape{
   margin-top: 70px;
@@ -369,7 +372,7 @@ li>a:hover{
   color: pink;
   background-color: black;
   line-height: 50px;
-  padding-top: 16px;
+  padding-top: 22px;
   padding-bottom: 0;
 }
 .burgerStyling{
