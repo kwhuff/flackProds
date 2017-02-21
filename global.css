@@ -343,8 +343,8 @@ body{
   font-weight: bold;
 }
 .vendorIntro{
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size: 15px;
 }
 .vendorList{
@@ -431,6 +431,14 @@ li>a:hover{
     height: 30px;
     margin-top: 25px;
     margin-left: 2vw;
+  }
+  .vendorIntro{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .vendorList{
+    line-height: 60px;
+    font-size: 13px;
   }
 }
 @media (max-width: 767px) {
