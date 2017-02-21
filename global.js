@@ -13,11 +13,20 @@ var homeLink = document.getElementById('homeLink')
 var packagesLink = document.getElementById('packagesLink')
 var vendorsLink = document.getElementById('vendorsLink')
 var contactLink = document.getElementById('contactLink')
+var homeLink2 = document.getElementById('homeLink2')
+var packagesLink2 = document.getElementById('packagesLink2')
+var vendorsLink2 = document.getElementById('vendorsLink2')
+var contactLink2 = document.getElementById('contactLink2')
 
 homeLink.addEventListener("click", goToHome)
 packagesLink.addEventListener("click", goToPackages)
 vendorsLink.addEventListener("click", goToVendors)
 contactLink.addEventListener("click", goToContact)
+homeLink2.addEventListener("click", goToHome)
+packagesLink2.addEventListener("click", goToPackages)
+vendorsLink2.addEventListener("click", goToVendors)
+contactLink2.addEventListener("click", goToContact)
+
 
 function goToHome(){
   window.location.href = '/index.html'
@@ -49,12 +58,6 @@ function displayWedding3(){
   $(weddingVideo3).removeClass("noDisplay")
 }
 
-// $(function() {
-//     $(window).scroll(function(){
-//         $("#landscape").css("top", $(this).scrollTop()/3) +px;
-//     });
-// });
-
 $(window).scroll(function () {
 
    $('#landscape').css({
@@ -62,13 +65,6 @@ $(window).scroll(function () {
    });
 
 });
-
-// $(document).ready(function() {
-// // Cache the Window object
-//  windowScroll = $(this).scrollTop();
-//  $(window).scroll(function () {
-//     $('#landscape').css({
-//        'top' : -($(this).scrollTop()/3)+"px"
-//     });
-//  });
-// });
+$(document).ready(function () {
+       $('.dropdown-toggle').dropdown();
+   });

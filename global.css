@@ -9,12 +9,10 @@
 body{
   padding: 0;
   margin: 0;
+  /*width: 100%;*/
 }
 *{
   box-sizing: border-box;
-}
-img{
-  /*width: 100%;*/
 }
 .mainHeader{
   height: 80px;
@@ -23,6 +21,10 @@ img{
   width: 100%;
   border-bottom: 1px solid #857455;
   z-index: 2;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .headerLogo{
   margin-top: 18px;
@@ -37,6 +39,15 @@ img{
   /*font-size: 1vh;*/
   margin-right: 5vw;
   height: 40px;
+}
+.burgerLink{
+  text-align: right;
+  margin-top: 20px;
+  /*font-size: 1vh;*/
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 25px;
 }
 .headerLinks>a{
   color: #B8BBBA;
@@ -191,15 +202,17 @@ img{
   align-items: center;
   padding: 0;
   border-right: 2px solid #857455;
+  /*background: black;*/
 }
-.awardLogo2{
-  margin-top: 7vh;
-  align-items: center;
-  padding: 0;
+.blackBackground{
+  background-color: black;
 }
 .awardFooter{
+  width: 100%;
   background-color: black;
   position: static;
+  margin: 0;
+  padding: 0;
 }
 .mainFooter{
   background-color: black;
@@ -352,26 +365,55 @@ li>a:hover{
 .awardImg{
   height: 125px;
 }
-.weddingVidArea{
+.customMenu{
+  color: pink;
+  background-color: black;
+  line-height: 50px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+.burgerStyling{
+  background-color: black;
+  /*border: 1px solid white;*/
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 25px;
+}
+.burgerStyling:hover{
+  color: white;
 }
 /*Begin Mobile Views*/
-@media (max-width: 930px) {
+@media (max-width: 962px) {
   .headerLinks {
     font-size: 13px;
   }
   .headerLinks2 {
     font-size: 13px;
+  }
+  .allHeaderLinks{
+    margin-right: 3vw;
   }
 }
-@media (max-width: 790px) {
-  .headerLinks {
-    visibility: hidden;
-  }
-  .headerLinks2 {
-    visibility: hidden;
+@media (max-width: 807px) {
+  .allHeaderLinks {
+    display: none;
   }
   .landscapeInfo{
     font-size: 5vw;
+  }
+  .headerLinks{
+    background-color: black;
+    border-bottom: 1px solid #857455;
+    border-left: 1px solid #857455;
+    border-right: 1px solid #857455;
+    font-size: 15px;
+    padding-left: 3px;
+  }
+}
+@media (min-width: 808px){
+  .burgerLink{
+    display: none;
   }
 }
 @media (max-width: 560px) {
@@ -387,4 +429,9 @@ li>a:hover{
     margin-top: 25px;
     margin-left: 2vw;
   }
+}
+@media (max-width: 767px) {
+.awardLogo1{
+  border-right: none;
+}
 }
