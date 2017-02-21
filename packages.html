@@ -11,149 +11,160 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
   <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
-<!-- Begin header -->
-<div class='container-fluid'>
-  <div class='row'>
-    <div class='mainHeader'>
-      <div class='col-xs-4'>
-        <p>
-          <img class='headerLogo responsive' src='mainLogo' alt='Flack Prods Logo'/>
-        </p>
-      </div>
-      <div class='col-xs-8'>
-        <ul class='list-unstyled list-inline allHeaderLinks'>
-          <li class='headerLinks' id='homeLink'>home</li>
-          <li class='headerLinks2'>|</li>
-          <li class='headerLinks' id='packagesLink'>wedding packages</li>
-          <li class='headerLinks2'>|</li>
-          <li class='headerLinks' id='vendorsLink'>preferred vendors</li>
-          <li class='headerLinks2'>|</li>
-          <li class='headerLinks' id='contactLink'>contact</li>
-        </ul>
-        <div class="dropdown">
-          <div class='burgerLink'>
-            <button class="btn dropdown-toggle burgerStyling" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <i class="fa fa-bars menuEdit" aria-hidden="true"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-right customMenu" aria-labelledby="dropdownMenu1">
-              <li class='headerLinks' id='homeLink2'> home</li>
-              <li class='headerLinks' id='packagesLink2'> wedding packages</li>
-              <li class='headerLinks' id='vendorsLink2'> preferred vendors</li>
-              <li class='headerLinks' id='contactLink2'> contact</li>
+  <div id='allContent'>
+
+
+
+    <!-- Begin header -->
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='mainHeader'>
+          <div class='col-xs-4'>
+            <p>
+              <img class='headerLogo responsive' src='mainLogo' alt='Flack Prods Logo'/>
+            </p>
+          </div>
+          <div class='col-xs-8'>
+            <ul class='list-unstyled list-inline allHeaderLinks'>
+              <li class='headerLinks' id='homeLink'><a href='index.html'>home</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='packagesLink'><a href='#'>wedding packages</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='vendorsLink'><a href='vendors.html'>preferred vendors</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='contactLink'><a href='contact.html'>contact</a></li>
             </ul>
+            <div class="dropdown">
+              <div class='burgerLink'>
+                <button class="btn dropdown-toggle burgerStyling" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="fa fa-bars menuEdit" aria-hidden="true"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right customMenu" aria-labelledby="dropdownMenu1">
+                  <li class='headerLinks' id='homeLink'><a href='/flackProds'>home</a></li>
+                  <li class='headerLinks' id='packagesLink'><a href='#'>wedding packages</a></li>
+                  <li class='headerLinks' id='vendorsLink'><a href='vendors.html'>preferred vendors</a></li>
+                  <li class='headerLinks' id='contactLink'><a href='contact.html'>contact</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Begin packages section -->
-  <div class='container-fluid packagesMain text-center'>
-    <div class='bg'></div>
-    <h1>Wedding Packages</h1>
-    <div class='row text-center'>
-    </br>
-      <div class='packagesArea'></div>
-    </br>
-      <div class='col-sm-4 packageCell text-center'>
-        <h1 class='packageTitle'>Basic</h1>
-        <ul class='text-left packageText'>
-          <li>Ceremony coverage only</li>
-          <li>2-camera edit of full ceremony</li>
-          <li>3 DVDs or Blu-Rays</li>
-          <li>1 Generic USB Flash Drive</li>
-        </ul></br></br>
-        <div class='mobilePrice text-right'>
-          $1,100
+
+      <!-- <div class="m-page scene_element scene_element--fadeinup"> -->
+    <!-- Begin packages section -->
+    <div class='m-scene' id='main'>
+      <div class='m-container-fluid packagesMain text-center scene_element scene_element--fadeinup'>
+        <div class='bg'></div>
+        <h1>Wedding Packages</h1>
+        <div class='row text-center'>
+        </br>
+          <div class='packagesArea'></div>
+        </br>
+          <div class='col-sm-4 packageCell text-center'>
+            <h1 class='packageTitle'>Basic</h1>
+            <ul class='text-left packageText'>
+              <li>Ceremony coverage only</li>
+              <li>2-camera edit of full ceremony</li>
+              <li>3 DVDs or Blu-Rays</li>
+              <li>1 Generic USB Flash Drive</li>
+            </ul></br></br>
+            <div class='mobilePrice text-right'>
+              $1,100
+            </div>
+          </div>
+        <!-- <hr width='80%' style="border: 1px solid #857455"/> -->
+          <div class='col-sm-4 text-center packageCell middleColumn'>
+            <h1 class='packageTitle'>Standard</h1>
+            <ul class='text-left packageText'>
+              <li>7 hours</li>
+              <li>Ceremony, Reception, and Photo Shoot Coverage</li>
+              <li>3-4 Minute Highlight Film</li>
+              <li>3 DVDs or Blu-Rays</li>
+              <li>1 Custom USB Flash Drive</li>
+              <li class='list-unstyled'></li>
+              <li class='list-unstyled'></li>
+              <li class='list-unstyled'></li>
+              <li class='list-unstyled'></li>
+            </ul></br></br>
+            <div class='mobilePrice text-right'>
+              $1,650
+            </div>
+          </div>
+        <!-- <hr width='80%' style="border: 1px solid #857455"/> -->
+          <div class='col-sm-4 packageCell text-center'>
+            <h1 class='packageTitle'>Deluxe</h1>
+            <ul class='text-left packageText'>
+              <li>11 Hours</li>
+              <li>Bridal Prep, Ceremony, Reception, Photo Shoot Coverage, and Bride and Groom Voice Over and/or Interviews</li>
+              <li>Coming Soon Trailer (1-2 Minutes) delivered within 10 days of your wedding date</li>
+              <li>8-10 Minute Highlight Film</li>
+              <li>3 DVDs or Blu-Rays</li>
+              <li>1 Custom USB Flash Drive</li>
+            </ul></br></br>
+            <div class='mobilePrice text-right'>
+              $2,290
+            </div>
+          </div></br></br></br></br>
         </div>
-      </div>
-    <!-- <hr width='80%' style="border: 1px solid #857455"/> -->
-      <div class='col-sm-4 text-center packageCell middleColumn'>
-        <h1 class='packageTitle'>Standard</h1>
-        <ul class='text-left packageText'>
-          <li>7 hours</li>
-          <li>Ceremony, Reception, and Photo Shoot Coverage</li>
-          <li>3-4 Minute Highlight Film</li>
-          <li>3 DVDs or Blu-Rays</li>
-          <li>1 Custom USB Flash Drive</li>
-          <li class='list-unstyled'></li>
-          <li class='list-unstyled'></li>
-          <li class='list-unstyled'></li>
-          <li class='list-unstyled'></li>
-        </ul></br></br>
-        <div class='mobilePrice text-right'>
-          $1,650
+        <div class='row'>
+          <div class='col-sm-4'>
+            <p class='basicPrice text-right'>
+              $1,100
+            </p>
+          </div>
+          <div class='col-sm-4 middleColumn'>
+            <p class='basicPrice text-right'>
+              $1,650
+            </p>
+          </div>
+          <div class='col-sm-4'>
+            <p class='basicPrice text-right'>
+              $2,290
+            </p>
+          </div>
+        </div></br></br></br></br></br></br>
+        <p class='disclaimer1'>**Standard and Deluxe packages include the wedding ceremony in its entirety, as well as all reception formalities (introductions, toasts, dances, cake, etc.) on your DVD/Blu-Ray**</p></br>
+        <p class='disclaimer1'><span class='boldText'>AMAZING DISCOUNTS</span> offered for Friday and Sunday weddings!! (*non-holiday weekends*)</p></br>
+        <hr style='border: 1px solid #857455' width='80%' />
+        <h2 class='text-center extrah2'>Extras</h2>
+        <div class='col-sm-2'></div>
+        <div class='col-sm-4'>
+          <ul class='extraText text-left'>
+            <li>Videographer Hours - $100/hr</li>
+            <li>Coming Soon Trailer - $250 (included with Deluxe Package)</li>
+            <li>Aerial Drone Footage - $150*</li>
+          </ul>
         </div>
-      </div>
-    <!-- <hr width='80%' style="border: 1px solid #857455"/> -->
-      <div class='col-sm-4 packageCell text-center'>
-        <h1 class='packageTitle'>Deluxe</h1>
-        <ul class='text-left packageText'>
-          <li>11 Hours</li>
-          <li>Bridal Prep, Ceremony, Reception, Photo Shoot Coverage, and Bride and Groom Voice Over and/or Interviews</li>
-          <li>Coming Soon Trailer (1-2 Minutes) delivered within 10 days of your wedding date</li>
-          <li>8-10 Minute Highlight Film</li>
-          <li>3 DVDs or Blu-Rays</li>
-          <li>1 Custom USB Flash Drive</li>
-        </ul></br></br>
-        <div class='mobilePrice text-right'>
-          $2,290
+        <div class='col-sm-4'>
+          <ul class='extraText text-left'>
+            <li>Bride and Groom Interviews - $200</li>
+            <li>Additional Generic USB, DVD or Blu-Ray - $25 each</li>
+            <li>Additional Custom USB - $75 each</li>
+          </ul>
+        </br>
         </div>
-      </div></br></br></br></br>
-    </div>
-    <div class='row'>
-      <div class='col-sm-4'>
-        <p class='basicPrice text-right'>
-          $1,100
-        </p>
-      </div>
-      <div class='col-sm-4 middleColumn'>
-        <p class='basicPrice text-right'>
-          $1,650
-        </p>
-      </div>
-      <div class='col-sm-4'>
-        <p class='basicPrice text-right'>
-          $2,290
-        </p>
-      </div>
-    </div></br></br></br></br></br></br>
-    <p class='disclaimer1'>**Standard and Deluxe packages include the wedding ceremony in its entirety, as well as all reception formalities (introductions, toasts, dances, cake, etc.) on your DVD/Blu-Ray**</p></br>
-    <p class='disclaimer1'><span class='boldText'>AMAZING DISCOUNTS</span> offered for Friday and Sunday weddings!! (*non-holiday weekends*)</p></br>
-    <hr style='border: 1px solid #857455' width='80%' />
-    <h2 class='text-center extrah2'>Extras</h2>
-    <div class='col-sm-2'></div>
-    <div class='col-sm-4'>
-      <ul class='extraText text-left'>
-        <li>Videographer Hours - $100/hr</li>
-        <li>Coming Soon Trailer - $250 (included with Deluxe Package)</li>
-        <li>Aerial Drone Footage - $150*</li>
-      </ul>
-    </div>
-    <div class='col-sm-4'>
-      <ul class='extraText text-left'>
-        <li>Bride and Groom Interviews - $200</li>
-        <li>Additional Generic USB, DVD or Blu-Ray - $25 each</li>
-        <li>Additional Custom USB - $75 each</li>
-      </ul>
-    </br>
-    </div>
-    <div class='col-sm-2'></div>
-  </br>
-  <div class='row'>
-    <div class='col-sm-12'>
-  <p class='disclaimer2'>*Aerial Drone Footage available only on Standard and Deluxe Packages.</br>*Some restrictions may apply depending on locations due to FAA regulations and/or current weather conditions.
-  </p>
-  <p class='disclaimer2'>
-    A $500 Deposit holds your wedding date.  The balance is due in full no less than 2 weeks prior to your wedding date.
-  </p>
-</div>
-</div>
-    </div>
-<!-- Begin awardFooter -->
-<div class='container-fluid blackBackground'>
+        <div class='col-sm-2'></div>
+            </br>
+            <div class='row'>
+              <div class='col-sm-12'>
+            <p class='disclaimer2'>*Aerial Drone Footage available only on Standard and Deluxe Packages.</br>*Some restrictions may apply depending on locations due to FAA regulations and/or current weather conditions.
+            </p>
+            <p class='disclaimer2'>
+              A $500 Deposit holds your wedding date.  The balance is due in full no less than 2 weeks prior to your wedding date.
+            </p>
+          </div>
+          </div>
+              </div>
+            </div>
+            </div>
+
+    <!-- Begin awardFooter -->
+    <div class='container-fluid blackBackground'>
     <div class='col-sm-6 awardLogo1 text-center'>
       <a href="https://www.wedding.com/wedding-vendors/oh/dayton/videography/flack-productions/625208" title="Flack Productions | Videography | Wedding Planning Software, Free Wedding Websites, Wedding.com - Wedding.com" target="_TOP"><img src="https://www.wedding.com/badge.php?u=YToyOntzOjM6InVpZCI7czo2OiI2MjUyMDgiO3M6MjoiZnIiO3M6MTg6InByZWZlcnJlZF9hZmZsaWF0ZSI7fQ%3D%3D" class='awardImg' style="border:0px;" rel="nofollow"/></a>
     </div>
@@ -166,6 +177,7 @@
     </div>
     <p class='copyright text-center'>© 2017 by Flack Productions</p>
 </div>
+
 <script
 src="https://code.jquery.com/jquery-3.1.1.min.js"
 integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -173,7 +185,9 @@ crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/d22742e061.js"></script>
 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-<script type="text/javascript" src="packages.js"></script>
+<script src="jquery.smoothState.min.js"></script>
+<!-- <script type="text/javascript" src="global.js"></script> -->
+<script type="text/javascript" src="smooth.js"></script>
 <script>
 $(document).ready(function () {
       $('.dropdown-toggle').dropdown();

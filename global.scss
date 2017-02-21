@@ -1,14 +1,13 @@
-body {
+
+body{
   padding: 0;
   margin: 0;
   /*width: 100%;*/
 }
-
-* {
+*{
   box-sizing: border-box;
 }
-
-.mainHeader {
+.mainHeader{
   height: 80px;
   background-color: black;
   position: fixed;
@@ -20,24 +19,21 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-
-.headerLogo {
+.headerLogo{
   margin-top: 18px;
   margin-bottom: 10px;
   margin-left: 5vw;
   height: 40px;
   /*width: 15vw;*/
 }
-
-.allHeaderLinks {
+.allHeaderLinks{
   text-align: right;
   margin-top: 25px;
   /*font-size: 1vh;*/
   margin-right: 5vw;
   height: 40px;
 }
-
-.burgerLink {
+.burgerLink{
   text-align: right;
   margin-top: 14px;
   /*font-size: 1vh;*/
@@ -46,18 +42,15 @@ body {
   height: 40px;
   font-size: 25px;
 }
-
-.headerLinks > a {
+.headerLinks>a{
   color: #B8BBBA;
   text-decoration: none;
   transition: .8s ease;
 }
-
-.headerLinks:hover {
+.headerLinks:hover{
   color: white;
 }
-
-.headerLinks {
+.headerLinks{
   font-family: 'Raleway', sans-serif;
   color: #B8BBBA;
   font-size: 17px;
@@ -68,8 +61,7 @@ body {
   border-bottom: 1px solid black;
   cursor: pointer;
 }
-
-.headerLinks2 {
+.headerLinks2{
   font-family: 'Raleway', sans-serif;
   color: #B8BBBA;
   font-size: 17px;
@@ -78,20 +70,17 @@ body {
   transition: .8s ease;
   border-bottom: 1px solid black;
 }
-
-.headerLinks > a:hover {
+.headerLinks>a:hover{
   border-bottom: 1px solid white;
   color: white;
 }
-
-.menuEdit {
+.menuEdit{
   padding-bottom: 3px;
 }
-
-#landscape {
+#landscape{
   margin-top: 70px;
   height: 600px;
-  background-image: url("backgroundPhoto.png");
+  background-image: url('backgroundPhoto.png');
   overflow-x: hidden;
   background-size: cover;
   background-position: center;
@@ -100,8 +89,7 @@ body {
   bottom: 0;
   z-index: -1;
 }
-
-.landscapeInfo {
+.landscapeInfo{
   font-family: 'Raleway', sans-serif;
   font-size: 6vw;
   padding-top: 25vh;
@@ -110,16 +98,14 @@ body {
   color: black;
   margin-bottom: 0;
 }
-
-.landscapeSubtext {
+.landscapeSubtext{
   font-family: 'Raleway', sans-serif;
   font-size: 3vw;
   margin-left: 6vw;
   z-index: 1;
   color: black;
 }
-
-.homeBody {
+.homeBody{
   /*margin-top: 670px;*/
   margin-right: 0;
   margin-left: 0;
@@ -129,8 +115,7 @@ body {
   text-align: center;
   margin-bottom: 0;
 }
-
-.demoVid {
+.demoVid{
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 4vh;
@@ -138,127 +123,105 @@ body {
   /*height: 360px;
   width: 100%;*/
 }
-
-.demo {
+.demo{
   height: 360px;
   width: 100%;
 }
-
-.aboutSection {
+.aboutSection{
   margin-top: 4vh;
 }
-
-.videoText {
+.videoText{
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 17px;
   margin-bottom: 4vh;
 }
-
-.videoTitle {
+.videoTitle{
   font-family: 'Raleway', sans-serif;
   color: #857455;
   margin-top: 0px;
 }
-
-.topVideo {
+.topVideo{
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
-
-.bottomVideo {
+.bottomVideo{
   margin-bottom: 4vh;
   margin-top: 4vh;
 }
-
-.demoBody {
+.demoBody{
   border-bottom: 2px solid #857455;
   /*height: 400px;*/
 }
-
-.weddingText {
+.weddingText{
   font-family: 'Raleway', sans-serif;
   color: black;
   font-size: 18px;
 }
-
-.weddingSection {
+.weddingSection{
   margin-top: 4vh;
   padding-left: 3vw;
   padding-right: 3vw;
 }
-
-#weddingVid1 {
+#weddingVid1{
   margin-left: 20px;
   margin-right: 20px;
   /*width: 100%;*/
 }
-
-#weddingVid2 {
+#weddingVid2{
   margin-left: 20px;
   margin-right: 20px;
   /*width: 100%;*/
 }
-
-#weddingVid3 {
+#weddingVid3{
   margin-left: 20px;
   margin-right: 20px;
   /*width: 100%;*/
 }
-
-.noDisplay {
+.noDisplay{
   display: none;
 }
-
-.smallPic {
+.smallPic{
   cursor: pointer;
   transition: .2s ease;
 }
-
-.smallPic:hover {
+.smallPic:hover{
   border: 1px solid #857455;
 }
-
-.videoTitle2 {
+.videoTitle2{
   font-family: 'Raleway', sans-serif;
   color: #857455;
   text-align: left;
 }
-
-.weddingText2 {
+.weddingText2{
   font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 18px;
   text-align: left;
 }
-
-.weddingBackground {
+.weddingBackground{
   background-color: white;
   margin-right: 0;
   margin-left: 0;
 }
-
-.awardLogo1 {
+.awardLogo1{
   margin-top: 10px;
   align-items: center;
   padding: 0;
   border-right: 2px solid #857455;
   /*background: black;*/
 }
-
-.blackBackground {
+.blackBackground{
   background-color: black;
 }
-
-.awardFooter {
+.awardFooter{
   width: 100%;
   background-color: black;
   position: static;
   margin: 0;
   padding: 0;
 }
-
-.mainFooter {
+.mainFooter{
   background-color: black;
   font-size: 30px;
   letter-spacing: 15px;
@@ -266,19 +229,16 @@ body {
   padding-bottom: 35px;
   /*align-content: center;*/
 }
-
-.footerContacts {
+.footerContacts{
   color: #B8BBBA;
   align-content: center;
 }
-
-.copyright {
+.copyright{
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   letter-spacing: normal;
   color: white;
 }
-
 .packagesMain {
   font-family: 'Raleway', sans-serif;
   margin-top: 80px;
@@ -298,7 +258,7 @@ body {
   right: 0;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  background: url("packagesBackground.jpg");
+  background: url('packagesBackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -308,153 +268,126 @@ body {
   border-bottom: 2px solid black;
   overflow: hidden;
 }
-
-.bg {
+.bg{
   z-index: -1;
 }
-
 .packagesMain > h1 {
   font-size: 50px;
   font-weight: bold;
 }
-
-.packageTitle {
+.packageTitle{
   font-size: 40px;
 }
-
-.packagesArea {
+.packagesArea{
   border-top: 2px solid #857455;
   margin-right: 2vw;
   margin-left: 2vw;
   align-self: center;
 }
-
-.middleColumn {
+.middleColumn{
   border-left: 2px solid #857455;
   border-right: 2px solid #857455;
 }
-
-.packageText {
-  font-size: 1.5vw;
+.packageText{
+  font-size:1.5vw;
   padding-left: 35px;
   padding-right: 35px;
 }
-
-.basicPrice {
+.basicPrice{
   font-size: 2.7vw;
-  margin-right: 28px;
+  margin-right:28px;
   font-weight: bold;
 }
-
-.disclaimer1 {
+.disclaimer1{
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 0px;
   margin-left: 15%;
   margin-right: 15%;
 }
-
-.discountText {
+.discountText{
   font-size: 22px;
 }
-
-.extraText {
+.extraText{
   font-size: 20px;
 }
-
-.packageCell {
+.packageCell{
   height: 400px;
 }
-
-.extraOffers {
+.extraOffers{
   font-family: 'Raleway', sans-serif;
   color: white;
   /*background-color: transparent;*/
   opacity: 1;
   border-bottom: 1px solid black;
 }
-
-.boldText {
+.boldText{
   font-weight: bold;
 }
-
-.horBreak {
+.horBreak{
   color: black;
 }
-
-.linkLogo {
+.linkLogo{
   align-items: center;
   align-content: center;
   align-self: center;
 }
-
-.disclaimer2 {
+.disclaimer2{
   font-size: 10;
   font-style: italic;
 }
-
-.vendorArea {
+.vendorArea{
   font-family: 'Raleway', sans-serif;
   color: #857455;
   margin-top: 50px;
   margin-bottom: 0;
 }
-
-.vendorTitle {
+.vendorTitle{
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
   padding-top: 110px;
   font-weight: bold;
 }
-
-.packageScreenTitle {
+.packageScreenTitle{
   font-family: 'Raleway', sans-serif;
   font-size: 90px;
   /*padding-top: 110px;*/
   font-weight: bold;
 }
-
-.vendorIntro {
+.vendorIntro{
   margin-left: 20%;
   margin-right: 20%;
   font-size: 15px;
 }
-
-.vendorList {
+.vendorList{
   line-height: 75px;
   font-size: 2vw;
 }
-
-li > a {
+li>a{
   text-decoration: underline;
   color: black;
 }
-
-li > a:hover {
+li>a:hover{
   color: black;
 }
-
-.vendorBackground {
-  background-image: url("backgroundColor.png");
+.vendorBackground{
+  background-image: url('backgroundColor.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: 1px solid #857455;
 }
-
-.awardImg {
+.awardImg{
   height: 125px;
 }
-
-.customMenu {
+.customMenu{
   color: pink;
   background-color: black;
   line-height: 50px;
   padding-top: 22px;
   padding-bottom: 0;
 }
-
-.burgerStyling {
+.burgerStyling{
   background-color: black;
   /*border: 1px solid white;*/
   height: 50px;
@@ -462,16 +395,13 @@ li > a:hover {
   color: white;
   font-size: 25px;
 }
-
-.burgerStyling:hover {
+.burgerStyling:hover{
   color: white;
 }
-
-.mobilePrice {
+.mobilePrice{
   padding-right: 20px;
   font-size: 30px;
 }
-
 /*Begin Mobile Views*/
 @media (max-width: 962px) {
   .headerLinks {
@@ -480,25 +410,23 @@ li > a:hover {
   .headerLinks2 {
     font-size: 13px;
   }
-  .allHeaderLinks {
+  .allHeaderLinks{
     margin-right: 3vw;
   }
 }
-
 @media (max-width: 991px) {
-  .topVideo {
+  .topVideo{
     margin-bottom: 0;
   }
 }
-
 @media (max-width: 807px) {
   .allHeaderLinks {
     display: none;
   }
-  .landscapeInfo {
+  .landscapeInfo{
     font-size: 5vw;
   }
-  .headerLinks {
+  .headerLinks{
     background-color: black;
     border-bottom: 1px solid #857455;
     border-left: 1px solid #857455;
@@ -507,74 +435,72 @@ li > a:hover {
     padding-left: 3px;
   }
 }
-
-@media (min-width: 808px) {
-  .burgerLink {
+@media (min-width: 808px){
+  .burgerLink{
     display: none;
   }
 }
-
 @media (max-width: 560px) {
-  .demo {
+  .demo{
     height: 90%;
     width: 100%;
   }
-  #landscape {
+  #landscape{
     height: 300px;
   }
-  .headerLogo {
+  .headerLogo{
     height: 30px;
     margin-top: 25px;
     margin-left: 2vw;
   }
-  .vendorIntro {
+  .vendorIntro{
     margin-left: 15%;
     margin-right: 15%;
   }
-  .vendorList {
+  .vendorList{
     line-height: 60px;
     font-size: 13px;
   }
-  .vendorTitle {
+  .vendorTitle{
     font-size: 40px;
   }
   .packagesMain > h1 {
     font-size: 40px;
     /*font-weight: bold;*/
   }
-  .middleColumn {
+  .middleColumn{
     border: none;
   }
-  .packageCell {
+
+  .packageCell{
     height: 350px;
   }
 }
-
 @media (max-width: 767px) {
-  .awardLogo1 {
-    border-right: none;
-  }
-  .packageText {
-    font-size: 20px;
-  }
-  .basicPrice {
+.awardLogo1{
+  border-right: none;
+}
+.packageText{
+  font-size: 20px;
+}
+.basicPrice{
+  display: none;
+}
+}
+@media (min-width: 768px){
+  .mobilePrice{
     display: none;
   }
 }
-
-@media (min-width: 768px) {
-  .mobilePrice {
-    display: none;
-  }
-}
-
 /*
  * Keyframes
  */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -585,6 +511,7 @@ li > a:hover {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
   }
+
   to {
     opacity: 1;
     transform: none;
@@ -596,41 +523,41 @@ li > a:hover {
     opacity: 0;
     transform: translate3d(100%, 0, 0);
   }
+
   100% {
     opacity: 1;
     transform: none;
   }
 }
-
 /*
  * CSS Page Transitions
  * Don't forget to add vendor prefixes!
  */
 .m-scene {
   /* Basic styles for an animated element */
+  .scene_element{
+    -webkit-animation-duration: 0.25s;
+    -webkit-transition-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+  }
+
   /** An element that fades in */
+  .scene_element--fadein {
+    -webkit-animation-name: fadeIn;
+  }
+
   /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    -webkit-animation-name: fadeInUp;
+  }
+
   /** An element that fades in and slides from the right */
-}
-
-.m-scene .scene_element {
-  -webkit-animation-duration: 0.25s;
-  -webkit-transition-timing-function: ease-in;
-  -webkit-animation-fill-mode: both;
-}
-
-.m-scene .scene_element--fadein {
-  -webkit-animation-name: fadeIn;
-}
-
-.m-scene .scene_element--fadeinup {
-  -webkit-animation-name: fadeInUp;
-}
-
-.m-scene .scene_element--fadeinright {
-  -webkit-animation-name: fadeInRight;
-}
-
-.m-scene.is-exiting .scene_element {
-  animation-direction: alternate-reverse;
+  .scene_element--fadeinright {
+    -webkit-animation-name: fadeInRight;
+  }
+  &.is-exiting {
+      .scene_element {
+        animation-direction: alternate-reverse;
+      }
+  }
 }

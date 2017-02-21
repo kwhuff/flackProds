@@ -10,48 +10,50 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
   <link rel="icon" href="favicon">
   <link rel="stylesheet" type="text/css" href="global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
-  <!-- Begin header -->
-  <div class='container-fluid'>
-    <div class='row'>
-      <div class='mainHeader'>
-        <div class='col-xs-4'>
-          <p>
-            <img class='headerLogo responsive' src='mainLogo' alt='Flack Prods Logo'/>
-          </p>
-        </div>
-        <div class='col-xs-8'>
-          <ul class='list-unstyled list-inline allHeaderLinks'>
-            <li class='headerLinks' id='homeLink'>home</li>
-            <li class='headerLinks2'>|</li>
-            <li class='headerLinks' id='packagesLink'>wedding packages</li>
-            <li class='headerLinks2'>|</li>
-            <li class='headerLinks' id='vendorsLink'>preferred vendors</li>
-            <li class='headerLinks2'>|</li>
-            <li class='headerLinks' id='contactLink'>contact</li>
-          </ul>
-          <div class="dropdown">
-            <div class='burgerLink'>
-              <button class="btn dropdown-toggle burgerStyling" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  <i class="fa fa-bars menuEdit" aria-hidden="true"></i>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-right customMenu" aria-labelledby="dropdownMenu1">
-                <li class='headerLinks' id='homeLink2'> home</li>
-                <li class='headerLinks' id='packagesLink2'> wedding packages</li>
-                <li class='headerLinks' id='vendorsLink2'> preferred vendors</li>
-                <li class='headerLinks' id='contactLink2'> contact</li>
-              </ul>
+  <div id='allContent'>
+    <!-- Begin header -->
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='mainHeader'>
+          <div class='col-xs-4'>
+            <p>
+              <img class='headerLogo responsive' src='mainLogo' alt='Flack Prods Logo'/>
+            </p>
+          </div>
+          <div class='col-xs-8'>
+            <ul class='list-unstyled list-inline allHeaderLinks'>
+              <li class='headerLinks' id='homeLink'><a href='/flackProds'>home</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='packagesLink'><a href='packages.html'>wedding packages</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='vendorsLink'><a href='vendors.html'>preferred vendors</a></li>
+              <li class='headerLinks2'>|</li>
+              <li class='headerLinks' id='contactLink'><a href='#'>contact</a></li>
+            </ul>
+            <div class="dropdown">
+              <div class='burgerLink'>
+                <button class="btn dropdown-toggle burgerStyling" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <i class="fa fa-bars menuEdit" aria-hidden="true"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right customMenu" aria-labelledby="dropdownMenu1">
+                  <li class='headerLinks' id='homeLink'><a href='/flackProds'>home</a></li>
+                  <li class='headerLinks' id='packagesLink'><a href='packages.html'>wedding packages</a></li>
+                  <li class='headerLinks' id='vendorsLink'><a href='vendors.html'>preferred vendors</a></li>
+                  <li class='headerLinks' id='contactLink'><a href='#'>contact</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
- <!-- Begin vendors body -->
+   <!-- Begin contact body -->
 
-  <!-- Begin award footer -->
-  <div class='container-fluid blackBackground'>
+    <!-- Begin award footer -->
+    <div class='container-fluid blackBackground'>
       <div class='col-sm-6 awardLogo1 text-center'>
         <a href="https://www.wedding.com/wedding-vendors/oh/dayton/videography/flack-productions/625208" title="Flack Productions | Videography | Wedding Planning Software, Free Wedding Websites, Wedding.com - Wedding.com" target="_TOP"><img src="https://www.wedding.com/badge.php?u=YToyOntzOjM6InVpZCI7czo2OiI2MjUyMDgiO3M6MjoiZnIiO3M6MTg6InByZWZlcnJlZF9hZmZsaWF0ZSI7fQ%3D%3D" class='awardImg' style="border:0px;" rel="nofollow"/></a>
       </div>
@@ -64,7 +66,7 @@
       </div>
       <p class='copyright text-center'>© 2017 by Flack Productions</p>
   </div>
-
+  </div>
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -72,7 +74,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/d22742e061.js"></script>
   <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
-  <script type="text/javascript" src="packages.js"></script>
+  <script src="jquery.smoothState.min.js"></script>
+  <!-- <script type="text/javascript" src="global.js"></script> -->
+  <script type="text/javascript" src="smooth.js"></script>
   <script>
   $(document).ready(function () {
         $('.dropdown-toggle').dropdown();
