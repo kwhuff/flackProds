@@ -29,7 +29,7 @@ contactLink2.addEventListener("click", goToContact)
 
 
 function goToHome(){
-  window.location.href = '/flackProds/index.html'
+  window.location.href = '//flackProds/index.html'
 }
 function goToPackages(){
   window.location.href = 'packages.html'
