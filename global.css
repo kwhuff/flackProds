@@ -440,6 +440,9 @@ li>a:hover{
     line-height: 60px;
     font-size: 13px;
   }
+  .vendorTitle{
+    font-size: 40px;
+  }
 }
 @media (max-width: 767px) {
 .awardLogo1{
