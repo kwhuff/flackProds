@@ -29,7 +29,7 @@ contactLink2.addEventListener("click", goToContact)
 
 
 function goToHome(){
-  window.location.href = 'index.html'
+  window.location.href = '/'
 }
 function goToPackages(){
   window.location.href = 'packages.html'
