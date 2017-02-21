@@ -342,6 +342,12 @@ body{
   padding-top: 110px;
   font-weight: bold;
 }
+.packageScreenTitle{
+  font-family: 'Raleway', sans-serif;
+  font-size: 90px;
+  /*padding-top: 110px;*/
+  font-weight: bold;
+}
 .vendorIntro{
   margin-left: 20%;
   margin-right: 20%;
@@ -386,6 +392,10 @@ li>a:hover{
 .burgerStyling:hover{
   color: white;
 }
+.mobilePrice{
+  padding-right: 20px;
+  font-size: 30px;
+}
 /*Begin Mobile Views*/
 @media (max-width: 962px) {
   .headerLinks {
@@ -418,6 +428,9 @@ li>a:hover{
   .burgerLink{
     display: none;
   }
+  .mobilePrice{
+    display: none;
+  }
 }
 @media (max-width: 560px) {
   .demo{
@@ -443,9 +456,25 @@ li>a:hover{
   .vendorTitle{
     font-size: 40px;
   }
+  .packagesMain > h1 {
+    font-size: 40px;
+    /*font-weight: bold;*/
+  }
+  .middleColumn{
+    border: none;
+  }
+  .basicPrice{
+    display: none;
+  }
+  .packageCell{
+    height: 350px;
+  }
 }
 @media (max-width: 767px) {
 .awardLogo1{
   border-right: none;
+}
+.packageText{
+  font-size: 20px;
 }
 }
