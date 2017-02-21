@@ -5,7 +5,7 @@
         onStart : {
 
           // Set the duration of our animation
-          duration: 250,
+          duration: 500,
 
           // Alterations to the page
           render: function () {

@@ -282,7 +282,6 @@ body {
 .packagesMain {
   font-family: 'Raleway', sans-serif;
   margin-top: 80px;
-  padding-top: 50px;
   position: relative;
   z-index: 1;
   /*height: 900px;*/
@@ -316,6 +315,10 @@ body {
 .packagesMain > h1 {
   font-size: 50px;
   font-weight: bold;
+}
+
+.packagesWedding {
+  padding-top: 50px;
 }
 
 .packageTitle {
@@ -403,7 +406,6 @@ body {
 .vendorTitle {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
-  padding-top: 110px;
   font-weight: bold;
 }
 
@@ -572,20 +574,20 @@ li > a:hover {
  * Keyframes
  */
 @keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 @keyframes fadeInUp {
-  from {
+  0% {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
   }
-  to {
+  100% {
     opacity: 1;
     transform: none;
   }
