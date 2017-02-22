@@ -449,7 +449,7 @@ li > a:hover {
 }
 
 .customMenu {
-  color: white;
+  color: black;
   background-color: black;
   line-height: 50px;
   padding-top: 22px;
@@ -585,14 +585,13 @@ li > a:hover {
     font-size: 5vw;
   }
   .headerLinks {
-    background-color: black;
-    border-bottom: 1px solid #857455;
-    border-left: 1px solid #857455;
-    border-right: 1px solid #857455;
+    background-color: white;
+    border-bottom: 2px solid #857455;
+    border-left: 2px solid #857455;
+    border-right: 2px solid #857455;
     font-size: 35px;
     padding-left: 3px;
     color: white;
-    z-index: 10;
   }
 }
 
