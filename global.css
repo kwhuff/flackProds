@@ -485,6 +485,66 @@ li > a:hover {
   margin: 0;
 }
 
+.contactLogo {
+  margin-right: 5vw;
+  height: 500px;
+}
+
+.contactMain {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 80px;
+}
+
+.contactContent {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-right: 0;
+}
+
+.logoSide {
+  border-right: 2px solid black;
+  text-align: right;
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactInfo {
+  text-align: left;
+  font-size: 20px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#borderBottom {
+  border-bottom: 2px solid black;
+  right: 15%;
+  left: 10%;
+  position: absolute;
+}
+
+.contactInfo2 {
+  text-align: left;
+  font-size: 20px;
+  height: 250px;
+  padding-top: 100px;
+}
+
+.contactList {
+  margin-left: 5vw;
+}
+
+.flackLogoRight {
+  margin-left: 5vw;
+  width: 32vw;
+}
+
+.logoSide2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /*Begin Mobile Views*/
 @media (max-width: 767px) {
   .packageCellMiddle {
