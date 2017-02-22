@@ -454,6 +454,7 @@ li > a:hover {
   line-height: 50px;
   padding-top: 22px;
   padding-bottom: 0;
+  width: 80%;
 }
 
 .burgerStyling {
@@ -548,6 +549,17 @@ li > a:hover {
 }
 
 /*Begin Mobile Views*/
+@media (min-width: 450px) {
+  .customMenu {
+    color: black;
+    background-color: black;
+    line-height: 50px;
+    padding-top: 22px;
+    padding-bottom: 0;
+    width: 62%;
+  }
+}
+
 @media (max-width: 767px) {
   .packageCellMiddle {
     padding-top: 10px;
@@ -578,6 +590,10 @@ li > a:hover {
 }
 
 @media (max-width: 807px) {
+  .mobileMenu {
+    padding-right: 0;
+    line-height: 40px;
+  }
   .allHeaderLinks {
     display: none;
   }
@@ -588,10 +604,11 @@ li > a:hover {
     background-color: white;
     border-bottom: 2px solid #857455;
     border-left: 2px solid #857455;
-    border-right: 2px solid #857455;
-    font-size: 35px;
-    padding-left: 3px;
+    font-size: 5vw;
+    padding-left: 4px;
     color: white;
+    height: 70px;
+    padding-top: 15px;
   }
 }
 
