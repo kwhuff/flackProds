@@ -285,7 +285,7 @@ body {
   position: relative;
   z-index: 1;
   /*height: 900px;*/
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .packagesMain .bg {
