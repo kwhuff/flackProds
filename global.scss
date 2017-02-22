@@ -363,8 +363,11 @@ body{
   font-size: 15px;
 }
 .vendorList{
-  line-height: 75px;
-  font-size: 2vw;
+  line-height: 30px;
+  font-size: 30px;
+}
+.vendorSub{
+  font-size: 20px;
 }
 li>a{
   text-decoration: underline;
@@ -438,6 +441,9 @@ li>a:hover{
 }
 .contactName{
   font-weight: bold;
+}
+.vendorLink>a{
+  text-decoration: none;
 }
 .contactInfo{
   text-align: left;
@@ -560,8 +566,11 @@ li>a:hover{
     margin-right: 15%;
   }
   .vendorList{
-    line-height: 60px;
-    font-size: 13px;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .vendorSub{
+    font-size: 14px;
   }
   .vendorTitle{
     font-size: 40px;
