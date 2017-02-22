@@ -285,7 +285,6 @@ body {
   position: relative;
   z-index: 1;
   /*height: 900px;*/
-  font-weight: 700;
 }
 
 .packagesMain .bg {
@@ -314,7 +313,6 @@ body {
 
 .packagesMain > h1 {
   font-size: 50px;
-  font-weight: bold;
 }
 
 .packagesWedding {
@@ -346,12 +344,10 @@ body {
 .basicPrice {
   font-size: 2.7vw;
   margin-right: 28px;
-  font-weight: bold;
 }
 
 .disclaimer1 {
   font-size: 20px;
-  font-weight: bold;
   margin-bottom: 0px;
   margin-left: 15%;
   margin-right: 15%;
@@ -406,14 +402,12 @@ body {
 .vendorTitle {
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
-  font-weight: bold;
 }
 
 .packageScreenTitle {
   font-family: 'Raleway', sans-serif;
   font-size: 90px;
   /*padding-top: 110px;*/
-  font-weight: bold;
 }
 
 .vendorIntro {
