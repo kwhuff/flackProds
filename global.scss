@@ -405,6 +405,11 @@ li>a:hover{
   padding-right: 20px;
   font-size: 30px;
 }
+.middleMobilePrice{
+  padding-right: 20px;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
 .priceRow{
   width: 100%;
   margin: 0;
@@ -415,7 +420,7 @@ li>a:hover{
 @media (max-width: 767px){
   .packageCellMiddle{
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 360px;
     border-top: 1px solid #857455;
     border-bottom: 1px solid #857455;
     border-right: none;
@@ -491,10 +496,6 @@ li>a:hover{
     font-size: 40px;
     /*font-weight: bold;*/
   }
-  // .middleColumn{
-  //   border: none;
-  // }
-
   .packageCell{
     height: 350px;
   }
@@ -512,6 +513,9 @@ li>a:hover{
 }
 @media (min-width: 768px){
   .mobilePrice{
+    display: none;
+  }
+  .middleMobilePrice{
     display: none;
   }
 }
