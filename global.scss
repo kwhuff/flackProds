@@ -12,7 +12,7 @@ body{
   background-color: black;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid #857455;
+  border-bottom: 2px solid #857455;
   z-index: 2;
   padding-right: 0;
   padding-left: 0;
@@ -208,7 +208,7 @@ body{
   margin-top: 10px;
   align-items: center;
   padding: 0;
-  border-right: 2px solid #857455;
+  border-right: 2px solid #B8BBBA;
   /*background: black;*/
 }
 .blackBackground{
@@ -470,6 +470,9 @@ li>a:hover{
   padding-right: 0;
   padding-left: 0;
 }
+.contactList>a{
+  text-decoration: none;
+}
 
 /*Begin Mobile Views*/
 @media (min-width: 450px){
@@ -480,7 +483,6 @@ li>a:hover{
     padding-top: 22px;
     padding-bottom: 0;
     width: 62%;
-    // text-decoration:line-through;
   }
 }
 @media (max-width: 767px){
