@@ -384,7 +384,7 @@ li>a:hover{
   height: 125px;
 }
 .customMenu{
-  color: pink;
+  color: white;
   background-color: black;
   line-height: 50px;
   padding-top: 22px;
@@ -405,7 +405,15 @@ li>a:hover{
   padding-right: 20px;
   font-size: 30px;
 }
+.priceRow{
+  width: 100%;
+  margin: 0;
+}
+
+
 /*Begin Mobile Views*/
+
+
 @media (max-width: 962px) {
   .headerLinks {
     font-size: 13px;
@@ -434,8 +442,10 @@ li>a:hover{
     border-bottom: 1px solid #857455;
     border-left: 1px solid #857455;
     border-right: 1px solid #857455;
-    font-size: 15px;
+    font-size: 35px;
     padding-left: 3px;
+    color: white;
+    z-index: 10;
   }
 }
 @media (min-width: 808px){
