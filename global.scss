@@ -427,10 +427,12 @@ li>a:hover{
   padding-top: 150px;
   padding-bottom: 150px;
   padding-right: 0;
+  padding-left: 0;
 }
 .logoSide{
   border-right: 2px solid black;
   text-align: right;
+  padding: 0;
 }
 .contactName{
   font-weight: bold;
@@ -451,7 +453,6 @@ li>a:hover{
 }
 .contactInfo2{
   text-align: left;
-  // margin-left: 5vw;
   font-size: 20px;
   height: 250px;
   padding-top: 100px;
@@ -553,6 +554,38 @@ li>a:hover{
   }
 }
 @media (max-width: 767px) {
+.contactLogo{
+  margin-right: 0;
+}
+.contactContent{
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 0;
+}
+.logoSide{
+  border-right: none;
+  text-align: center;
+}
+.contactInfo{
+  text-align: center;
+}
+.contactInfo2{
+  text-align: center;
+  padding-top: 15px;
+}
+.flackLogoRight{
+  text-align: center;
+  font-size: 30px;
+  width: 80%;
+  margin-right: 0;
+  margin-left: 0;
+}
+#borderBottom{
+  display: none;
+}
+.contactList{
+  margin-left: 4px;
+}
 .awardLogo1{
   border-right: none;
 }
