@@ -412,6 +412,16 @@ li>a:hover{
 
 
 /*Begin Mobile Views*/
+@media (max-width: 767px){
+  .packageCellMiddle{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    border-top: 1px solid #857455;
+    border-bottom: 1px solid #857455;
+    border-right: none;
+    border-left: none;
+  }
+}
 
 
 @media (max-width: 962px) {
@@ -481,9 +491,9 @@ li>a:hover{
     font-size: 40px;
     /*font-weight: bold;*/
   }
-  .middleColumn{
-    border: none;
-  }
+  // .middleColumn{
+  //   border: none;
+  // }
 
   .packageCell{
     height: 350px;
