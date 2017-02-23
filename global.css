@@ -151,7 +151,7 @@ body {
 .videoText {
   font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 4vh;
 }
 
@@ -185,6 +185,14 @@ body {
 .weddingSection {
   margin-top: 16vh;
   margin-bottom: 16vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.weddingSectionFilms {
+  margin-top: 16vh;
+  margin-bottom: 16vh;
+  padding-top: 7vh;
   padding-left: 3vw;
   padding-right: 3vw;
 }
@@ -560,6 +568,14 @@ li > a:hover {
 }
 
 /*Begin Mobile Views*/
+@media (min-width: 561px) and (max-width: 768px) {
+  .weddingSectionFilms {
+    margin-top: 0;
+    margin-bottom: 5vh;
+    padding-top: 0;
+  }
+}
+
 @media (min-width: 450px) {
   .customMenu {
     color: black;
@@ -630,8 +646,9 @@ li > a:hover {
 }
 
 @media (max-width: 560px) {
-  .videoText {
-    font-size: 15px;
+  .weddingSectionFilms {
+    margin-top: 0;
+    margin-bottom: 5vh;
   }
   .bottomVideo {
     margin-top: 5vh;
@@ -747,6 +764,13 @@ li > a:hover {
   .weddingSection {
     margin-top: 5vh;
     margin-bottom: 5vh;
+  }
+  .topVideo {
+    margin-top: 5vh;
+  }
+  .bottomVideo {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
   }
 }
 
