@@ -145,6 +145,10 @@ body{
   margin-top: 15vh;
   margin-bottom: 15vh;
 }
+.topVideoFilms{
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
 .bottomVideo{
   margin-bottom: 15vh;
   margin-top: 15vh;
@@ -537,6 +541,9 @@ li>a:hover{
   .topVideo{
     margin-bottom: 0;
   }
+  .topVideoFilms{
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 807px) {
   .mobileMenu{
@@ -581,6 +588,9 @@ li>a:hover{
   }
   .topVideo{
     margin-top: 5vh;
+  }
+  .topVideoFilms{
+    margin-top: 10vh;
   }
   .demo{
     height: 90%;
@@ -671,6 +681,11 @@ li>a:hover{
   }
   .middleMobilePrice{
     display: none;
+  }
+}
+@media (min-width: 561px) and (max-width: 768px){
+  .topVideoFilms{
+    margin-top: 5vh;
   }
 }
 @media (max-width: 768px){
