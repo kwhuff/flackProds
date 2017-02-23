@@ -162,13 +162,13 @@ body {
 }
 
 .topVideo {
-  margin-top: 4vh;
-  margin-bottom: 4vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }
 
 .bottomVideo {
-  margin-bottom: 4vh;
-  margin-top: 4vh;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
 }
 
 .demoBody {
@@ -179,13 +179,18 @@ body {
 .weddingText {
   font-family: 'Raleway', sans-serif;
   color: black;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 
 .weddingSection {
-  margin-top: 4vh;
+  margin-top: 16vh;
+  margin-bottom: 16vh;
   padding-left: 3vw;
   padding-right: 3vw;
+}
+
+.weddingSamples {
+  margin-top: 5vh;
 }
 
 #weddingVid1 {
@@ -228,7 +233,7 @@ body {
 .weddingText2 {
   font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 1.5vw;
   text-align: left;
 }
 
@@ -716,6 +721,19 @@ li > a:hover {
   }
   .middleMobilePrice {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .weddingText {
+    font-size: 25px;
+  }
+  .weddingText2 {
+    font-size: 25px;
+  }
+  .weddingSection {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
 }
 
