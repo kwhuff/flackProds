@@ -580,7 +580,12 @@ li>a:hover{
     /*font-weight: bold;*/
   }
   .packageCell{
-    height: 350px;
+    height: 450px;
+  }
+}
+@media (max-width: 321px){
+  .packageCell{
+    height: 500px;
   }
 }
 @media (max-width: 767px) {
