@@ -553,6 +553,19 @@ li>a:hover{
   }
 }
 @media (max-width: 560px) {
+  .videoText{
+    font-size: 15px;
+  }
+  .bottomVideo{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .aboutSection{
+    margin-top: 0;
+  }
+  .topVideo{
+    margin-top: 5vh;
+  }
   .demo{
     height: 90%;
     width: 100%;
@@ -646,10 +659,10 @@ li>a:hover{
 }
 @media (max-width: 768px){
   .weddingText{
-    font-size: 25px;
+    font-size: 15px;
   }
   .weddingText2{
-    font-size: 25px;
+    font-size: 15px;
   }
   .weddingSection{
     margin-top: 5vh;
