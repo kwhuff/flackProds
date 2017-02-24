@@ -26,7 +26,7 @@ $('.dropdown').on('hide.bs.dropdown', function() {
 });
 
 // Find all YouTube videos
-var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"),
+var $allVideos = $("iframe[src^='//www.youtube.com']"),
 
 
     // The element that is fluid width

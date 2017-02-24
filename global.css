@@ -2,6 +2,12 @@ body {
   padding: 0;
   margin: 0;
   /*width: 100%;*/
+  overflow-x: hidden;
+}
+
+video source {
+  overflow: hidden;
+  position: fixed;
 }
 
 * {
@@ -307,6 +313,14 @@ body {
   height: 700px;
 }
 
+.noFlow {
+  overflow: hidden;
+}
+
+#backgroundPackagesVid {
+  overflow-y: hidden;
+}
+
 .belowMain {
   font-family: 'Raleway', sans-serif;
 }
@@ -333,7 +347,7 @@ body {
   height: 843.75px;
   max-height: 720px;
   border-bottom: 2px solid black;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .videoWrapperPackages {
@@ -659,7 +673,16 @@ li > a:hover {
 }
 
 @media (max-width: 1024px) {
+  .bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
   .videoW {
+    display: none;
+  }
+  #backgroundPackagesVid {
     display: none;
   }
 }
