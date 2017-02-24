@@ -57,8 +57,10 @@
       <div class='m-container-fluid text-center scene_element scene_element--fadein'>
         <div class='packagesMain'>
         <div class='bg'>
-
-          <iframe class='videoW' width="1450" height="815.625" src="https://www.youtube.com/embed/-lKZ_Ezb02A?autoplay=1&autohide=1&rel=0&amp;controls=0&amp;showinfo=0&" frameborder="0" allowfullscreen></iframe>
+          <video id='backgroundPackagesVid' height:'720' width: '1280' autoplay>
+            <source src='Color Packages Vid.mp4' type='video/mp4' />
+          </video>
+          <!-- <iframe class='videoW' width="1450" height="815.625" src="https://www.youtube.com/embed/-lKZ_Ezb02A?autoplay=1&autohide=1&rel=0&amp;controls=0&amp;showinfo=0&" frameborder="0" allowfullscreen></iframe> -->
 
         </div>
         <h1 class='packagesWedding'>Wedding Packages</h1>
@@ -192,17 +194,11 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
 <script src="jquery.smoothState.min.js"></script>
 <script type="text/javascript" src="smooth.js"></script>
-<script src="jquery.fitvids.js"></script>
+<script type="text/javascript" src="pauseVid.js"></script>
 <script>
 $(document).ready(function () {
       $('.dropdown-toggle').dropdown();
   });
 </script>
-<!-- <script>
-$(document).ready(function(){
-// Target your .container, .wrapper, .post, etc.
-$(".bg").fitVids();
-});
-</script> -->
 </body>
 </html>
