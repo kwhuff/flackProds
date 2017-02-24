@@ -665,6 +665,12 @@ li > a:hover {
   }
 }
 
+@media (max-width: 1024px) {
+  .videoW {
+    display: none;
+  }
+}
+
 @media (max-width: 807px) {
   .mobileMenu {
     padding-right: 0;

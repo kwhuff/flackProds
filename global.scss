@@ -578,6 +578,11 @@ li>a:hover{
     margin-bottom: 0;
   }
 }
+@media (max-width: 1024px) {
+  .videoW{
+    display: none;
+  }
+}
 @media (max-width: 807px) {
   .mobileMenu{
     padding-right: 0;
