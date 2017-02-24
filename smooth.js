@@ -69,6 +69,5 @@ $(window).resize(function() {
 // pauseVid()
 var $packVid = $('.backgroundPackagesVid')
 $( document ).ready(function() {
-    // setTimeout(function(){$packVid.pause(); }, 8500)
-    // setTimeout(function(){ alert("Hello"); }, 3000)
+    setTimeout(function(){$packVid.pause(); }, 8500)
 });
