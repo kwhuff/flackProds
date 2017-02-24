@@ -54,14 +54,12 @@
     </div>
     <!-- Begin packages section -->
     <div class='m-scene' id='main'>
-      <div class='m-container-fluid packagesMain text-center scene_element scene_element--fadein'>
+      <div class='m-container-fluid text-center scene_element scene_element--fadein'>
+        <div class='packagesMain'>
         <div class='bg'>
-          <div class='videoWrapper'>
 
+          <iframe class='videoW' width="1450" height="815.625" src="https://www.youtube.com/embed/-lKZ_Ezb02A?autoplay=1&autohide=1&rel=0&amp;controls=0&amp;showinfo=0&" frameborder="0" allowfullscreen></iframe>
 
-          <iframe width='100%' height='720' src="https://www.youtube.com/embed/316AJOBQhew?&autoplay=1&loop=1&playlist=316AJOBQhew&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          <!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/ByIuxviC9MU?&autoplay=1&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-          </div>
         </div>
         <h1 class='packagesWedding'>Wedding Packages</h1>
         <div class='text-center'>
@@ -129,10 +127,12 @@
             </p>
           </div>
         </div>
-      </br></br></br></br></br></br>
+      </div>
+      </br></br></br>
+      <div class='lowerSection'>
         <p class='disclaimer1'>**Standard and Deluxe packages include the wedding ceremony in its entirety, as well as all reception formalities (introductions, toasts, dances, cake, etc.) on your DVD/Blu-Ray**</p></br>
         <p class='disclaimer1'><span class='boldText'>AMAZING DISCOUNTS</span> offered for Friday and Sunday weddings!! (*non-holiday weekends*)</p></br>
-        <hr style='border: 1px solid #857455' width='80%' />
+        <hr style='border: 1px solid black' width='80%' />
         <h2 class='text-center extrah2'>Extras</h2>
         <div class='col-sm-2'></div>
         <div class='col-sm-4'>
@@ -161,6 +161,7 @@
             </p>
           </div>
           </div>
+        </div>
         </div>
       </div>
 
@@ -191,10 +192,17 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch"></script>
 <script src="jquery.smoothState.min.js"></script>
 <script type="text/javascript" src="smooth.js"></script>
+<script src="jquery.fitvids.js"></script>
 <script>
 $(document).ready(function () {
       $('.dropdown-toggle').dropdown();
   });
 </script>
+<!-- <script>
+$(document).ready(function(){
+// Target your .container, .wrapper, .post, etc.
+$(".bg").fitVids();
+});
+</script> -->
 </body>
 </html>

@@ -61,3 +61,8 @@ $(window).resize(function() {
 
 // Kick off one resize to fix all videos on page load
 }).resize();
+var $packVid = $('.videoW')
+$( document ).ready(function() {
+    setTimeout(function(){$packVid.addClass('invisible'); }, 10200)
+    // setTimeout(function(){ alert("Hello"); }, 3000)
+});

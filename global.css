@@ -13,7 +13,7 @@ body {
   background-color: black;
   position: fixed;
   width: 100%;
-  border-bottom: 2px solid #857455;
+  border-bottom: 2px solid white;
   z-index: 2;
   padding-right: 0;
   padding-left: 0;
@@ -300,42 +300,62 @@ body {
 .packagesMain {
   font-family: 'Raleway', sans-serif;
   margin-top: 80px;
-  color: white;
+  color: black;
   position: relative;
   z-index: 1;
-  /*height: 900px;*/
+  visibility: visible;
+  height: 700px;
 }
 
-.packagesMain .bg {
+.belowMain {
+  font-family: 'Raleway', sans-serif;
+}
+
+.belowMain {
+  z-index: 2;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.bg {
   position: absolute;
   z-index: -1;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  margin-top: 20;
+  margin-bottom: 0;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  background: url("packagesBg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 1;
+  opacity: .5;
   width: 100%;
+  height: 100%;
+  max-height: 720px;
   border-bottom: 2px solid black;
   overflow: hidden;
 }
 
-.videoWrapper {
+.videoWrapperPackages {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   height: 0;
+  transition: 1s ease;
 }
 
-.videoWrapper iframe {
+.videoWrapperPackages iframe {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
 }
@@ -353,15 +373,15 @@ body {
 }
 
 .packagesArea {
-  border-top: 2px solid white;
+  border-top: 2px solid black;
   margin-right: 2vw;
   margin-left: 2vw;
   align-self: center;
 }
 
 .middleColumn {
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .packageText {
@@ -392,6 +412,10 @@ body {
 
 .packageCell {
   height: 400px;
+}
+
+.lowerSection {
+  font-family: 'Raleway', sans-serif;
 }
 
 .extraOffers {
@@ -584,6 +608,12 @@ li > a:hover {
 }
 
 /*Begin Mobile Views*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .packageTitle {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 561px) and (max-width: 768px) {
   .weddingSectionFilms {
     margin-top: 0;
@@ -607,8 +637,8 @@ li > a:hover {
   .packageCellMiddle {
     padding-top: 10px;
     padding-bottom: 360px;
-    border-top: 1px solid #857455;
-    border-bottom: 1px solid #857455;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     border-right: none;
     border-left: none;
   }
