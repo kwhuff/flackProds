@@ -652,7 +652,7 @@ li>a:hover{
     margin-bottom: 5vh;
   }
   .bottomVideoWedding{
-    margin-top: 5vh;
+    margin-top: 7vh;
     margin-bottom: 5vh;
   }
   .aboutSection{
@@ -774,6 +774,16 @@ li>a:hover{
   .topVideo{
     margin-top: 5vh;
   }
+  // .bottomVideo{
+  //   margin-bottom: 5vh;
+  //   margin-top: 5vh;
+  // }
+  // .bottomVideoWedding{
+  //   margin-bottom: 5vh;
+  //   margin-top: 15vh;
+  // }
+}
+@media (min-width: 561px) and (max-width: 767px){
   .bottomVideo{
     margin-bottom: 5vh;
     margin-top: 5vh;
