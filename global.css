@@ -182,6 +182,11 @@ video source {
   margin-top: 15vh;
 }
 
+.bottomVideoWedding {
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
 .demoBody {
   border-bottom: 2px solid #857455;
   /*height: 400px;*/
@@ -209,7 +214,7 @@ video source {
 }
 
 .weddingSamples {
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 #weddingVid1 {
@@ -629,6 +634,18 @@ li > a:hover {
   }
 }
 
+@media (min-width: 768px) and (max-width: 849px) {
+  .weddingSpecific {
+    margin-top: 11vh;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 992px) {
+  .weddingSpecific {
+    margin-top: 20vh;
+  }
+}
+
 @media (min-width: 450px) {
   .customMenu {
     color: black;
@@ -722,6 +739,10 @@ li > a:hover {
     margin-bottom: 5vh;
   }
   .bottomVideo {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .bottomVideoWedding {
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
@@ -851,6 +872,10 @@ li > a:hover {
   .bottomVideo {
     margin-bottom: 5vh;
     margin-top: 5vh;
+  }
+  .bottomVideoWedding {
+    margin-bottom: 5vh;
+    margin-top: 15vh;
   }
 }
 
