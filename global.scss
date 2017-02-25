@@ -3,12 +3,18 @@ body{
   padding: 0;
   margin: 0;
   /*width: 100%;*/
-  overflow-x: hidden;
+  overflow-x: hidden
   // overflow-y: hidden;
 }
-video source{
-  overflow: hidden;
+video{
+  overflow-y: visible;
   position: fixed;
+
+}
+source{
+  overflow-y: visible;
+  position: fixed;
+  // margin-bottom: 500px;
 }
 *{
   box-sizing: border-box;
@@ -276,7 +282,7 @@ video source{
 .noFlow{
   overflow: hidden;
 }
-#backgroundPackagesVid{
+.backgroundPackagesVid{
   //  height: 700px;
   //  width: 100%;
   //  min-height: 900px;
@@ -292,7 +298,12 @@ video source{
 .invisible{
   visibility: hidden;
 }
-
+#backgroundPackagesVid{
+  position: relative;
+}
+.backgroundPackagesVid{
+  position: absolute;
+}
 .bg {
   position: absolute;
   z-index: -1;
@@ -307,7 +318,7 @@ video source{
   height: 843.75px;
   max-height: 720px;
   border-bottom: 2px solid black;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .videoWrapperPackages {
 	position: relative;
@@ -370,6 +381,7 @@ video source{
   height: 400px;
 }
 .lowerSection{
+  z-index: 10;
   font-family: 'Raleway', sans-serif;
 }
 .extraOffers{
@@ -605,6 +617,7 @@ li>a:hover{
       background-repeat: no-repeat;
       height: 100%;
       width: 100%;
+      background-size: cover;
   }
   .videoW{
     display: none;
