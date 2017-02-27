@@ -568,6 +568,9 @@ li>a:hover{
   .packagesMain{
     height: 1900px;
   }
+  .videoTitle{
+    margin-top: 10px;
+  }
 }
 @media (min-width: 321px) and (max-width: 750px){
   .bg{
@@ -578,8 +581,11 @@ li>a:hover{
   .packagesMain{
     height: 1600px;
   }
+  .videoTitle{
+    margin-top: 10px;
+  }
 }
-@media (min-width: 1500){
+@media (min-width: 1500px){
   body{
     padding-left: 7%;
     padding-right: 7%;
