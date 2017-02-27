@@ -255,9 +255,11 @@ source{
 .mainFooter{
   background-color: black;
   font-size: 30px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   padding-top: 35px;
   padding-bottom: 35px;
+  padding-left: 0;
+  padding-right: 0;
   /*align-content: center;*/
 }
 .footerContacts{
@@ -278,6 +280,14 @@ source{
   z-index: 1;
   visibility: visible;
   height: 700px;
+}
+.packagesMainVendors{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 80px;
+  color: black;
+  position: relative;
+  z-index: 1;
+  visibility: visible;
 }
 .noFlow{
   overflow: hidden;
@@ -401,6 +411,7 @@ source{
   align-items: center;
   align-content: center;
   align-self: center;
+  padding-left: 10px;
 }
 .disclaimer2{
   font-size: 10;
@@ -548,6 +559,16 @@ li>a:hover{
 }
 
 /*Begin Mobile Views*/
+@media (min-width: 1500){
+  body{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  // .mainHeader{
+  //   padding-left: 7%;
+  //   padding-right: 7%;
+  // }
+}
 @media (min-width: 768px) and (max-width: 1024px){
 .packageTitle{
   font-size: 30px;
