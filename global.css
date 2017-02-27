@@ -646,6 +646,28 @@ li > a:hover {
 }
 
 /*Begin Mobile Views*/
+@media (min-width: 1px) and (max-width: 320px) {
+  .bg {
+    height: 15000px;
+    background: url("");
+    border: none;
+  }
+  .packagesMain {
+    height: 1900px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 750px) {
+  .bg {
+    height: 15000px;
+    background: url("");
+    border: none;
+  }
+  .packagesMain {
+    height: 1600px;
+  }
+}
+
 @media (min-width: 1500) {
   body {
     padding-left: 7%;
@@ -722,11 +744,16 @@ li > a:hover {
   }
 }
 
+@media (min-width: 750px) and (max-width: 1024px) {
+  .bg {
+    height: 100%;
+  }
+}
+
 @media (max-width: 1024px) {
   .bg {
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
     width: 100%;
     background-size: cover;
   }
