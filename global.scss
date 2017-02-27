@@ -280,6 +280,7 @@ source{
   z-index: 1;
   visibility: visible;
   height: 700px;
+  overflow: hidden;
 }
 .packagesMainVendors{
   font-family: 'Raleway', sans-serif;
@@ -372,7 +373,13 @@ source{
 .basicPrice{
   font-size: 2.7vw;
   margin-right:28px;
+  // margin-top: 22px;
   // font-weight: bold;
+}
+@media (min-width: 1000px){
+  .basicPrice{
+    margin-top: 22px;
+  }
 }
 .disclaimer1{
   font-size: 20px;
@@ -572,7 +579,7 @@ li>a:hover{
     margin-top: 10px;
   }
 }
-@media (min-width: 321px) and (max-width: 750px){
+@media (min-width: 321px) and (max-width: 767px){
   .bg{
     height: 15000px;
     background: url('');
@@ -585,15 +592,15 @@ li>a:hover{
     margin-top: 10px;
   }
 }
-@media (min-width: 1500px){
+@media (min-width: 1300px){
   body{
-    padding-left: 7%;
-    padding-right: 7%;
+    width: 1300px;
+    margin: 0 auto;
+    // background-color: white;
   }
-  // .mainHeader{
-  //   padding-left: 7%;
-  //   padding-right: 7%;
-  // }
+  .mainHeader{
+    width: 1300px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px){
 .packageTitle{
