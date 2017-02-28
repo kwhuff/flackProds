@@ -829,6 +829,10 @@ li>a:hover{
   .middleMobilePrice{
     display: none;
   }
+  .bottomVideoWedding{
+    // margin-bottom: 5vh;
+    margin-top: 20vh;
+  }
 }
 @media (min-width: 561px) and (max-width: 768px){
   .topVideoFilms{
@@ -849,14 +853,6 @@ li>a:hover{
   .topVideo{
     margin-top: 5vh;
   }
-  // .bottomVideo{
-  //   margin-bottom: 5vh;
-  //   margin-top: 5vh;
-  // }
-  // .bottomVideoWedding{
-  //   margin-bottom: 5vh;
-  //   margin-top: 15vh;
-  // }
 }
 @media (min-width: 561px) and (max-width: 767px){
   .bottomVideo{

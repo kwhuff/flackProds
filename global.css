@@ -928,6 +928,9 @@ li > a:hover {
   .middleMobilePrice {
     display: none;
   }
+  .bottomVideoWedding {
+    margin-top: 20vh;
+  }
 }
 
 @media (min-width: 561px) and (max-width: 768px) {
