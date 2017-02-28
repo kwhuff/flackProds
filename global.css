@@ -681,13 +681,13 @@ li > a:hover {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1500px) {
   body {
-    width: 1300px;
+    width: 1500px;
     margin: 0 auto;
   }
   .mainHeader {
-    width: 1300px;
+    width: 1500px;
   }
 }
 
