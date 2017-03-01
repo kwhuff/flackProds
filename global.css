@@ -695,6 +695,18 @@ li > a:hover {
   }
 }
 
+@media (min-width: 1441px) and (max-width: 2200px) {
+  .packagesMain {
+    height: 800px;
+  }
+  .bg {
+    max-height: 800px;
+  }
+  .basicPrice {
+    margin-top: 120px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .packageTitle {
     font-size: 30px;
