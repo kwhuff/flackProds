@@ -689,6 +689,8 @@ li > a:hover {
   body {
     width: 1500px;
     margin: 0 auto;
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
   }
   .mainHeader {
     width: 1500px;
@@ -708,6 +710,32 @@ li > a:hover {
   }
   .packageText {
     font-size: .99vw;
+  }
+  .landscapeInfo {
+    font-size: 3vw;
+    padding-top: 19vh;
+  }
+  .landscapeSubtext {
+    font-size: 1.5vw;
+  }
+  .weddingText {
+    font-size: 1vw;
+  }
+  .weddingText2 {
+    font-size: 1vw;
+  }
+  .videoTitle2 {
+    margin-top: 0;
+  }
+  .videoText {
+    font-size: .7vw;
+  }
+  .flackLogoRight {
+    width: 18vw;
+  }
+  .contactContent {
+    margin-top: 300px;
+    margin-bottom: 300px;
   }
 }
 
