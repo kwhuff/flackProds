@@ -19,6 +19,10 @@ source {
   box-sizing: border-box;
 }
 
+.col-xs-2 {
+  overflow: visible;
+}
+
 .mainHeader {
   height: 80px;
   background-color: black;
@@ -890,7 +894,7 @@ li > a:hover {
   .headerLogo {
     height: 30px;
     margin-top: 25px;
-    margin-left: 2vw;
+    margin-left: .25vw;
   }
   .vendorIntro {
     margin-left: 15%;
