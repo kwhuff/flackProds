@@ -368,6 +368,10 @@ source {
     margin-right: 20px;
     font-size: 30px;
   }
+
+  .packagesMain {
+    border-bottom: 1px solid black;
+  }
 }
 
 .packagesMainVendors {
