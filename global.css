@@ -333,6 +333,43 @@ source {
   overflow: hidden;
 }
 
+.platinum-package {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.extra-padding {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.lifePart {
+  margin-top: 35px;
+}
+
+.platinum-price {
+  /* font-size: 30px; */
+  margin-top: 0;
+  font-size: 2.7vw;
+  margin-right: 275px;
+}
+
+@media (max-width: 560px) {
+  .extra-padding {
+    margin: 0 !important;
+  }
+
+  .promo-vid-wrapper {
+    margin-top: 10vh !important;
+  }
+
+  .platinum-price {
+    margin-top: 25px;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+}
+
 .packagesMainVendors {
   font-family: 'Raleway', sans-serif;
   margin-top: 80px;
@@ -461,7 +498,8 @@ source {
 }
 
 .packageCell {
-  height: 400px;
+  height: 480px;
+
 }
 
 .lowerSection {

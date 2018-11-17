@@ -1,19 +1,3 @@
-// ;(function ($) {
-//   'use strict';
-//   var content  = $('#main').not('#notSmooth').smoothState({
-//         // onStart runs as soon as link has been activated
-//         onStart : {
-//           // Set the duration of our animation
-//           duration: 5000,
-//           // Alterations to the page
-//           render: function () {
-//             // Quickly toggles a class and restarts css animations
-//             // content.restartCSSAnimations('is-exiting');
-//             // $('body').animate({ 'scrollTop': 0 });
-//           }
-//         }
-//       }).data('smoothState'); // makes public methods available
-// })(jQuery);
 
 // Add slideDown animation to Bootstrap dropdown when expanding.
 $('.dropdown').on('show.bs.dropdown', function() {
@@ -61,9 +45,3 @@ $(window).resize(function() {
 
 // Kick off one resize to fix all videos on page load
 }).resize();
-
-// var vid = document.getElementById('backgroundPackagesVid')
-// function pauseVid(){
-//   setTimeout(function){vid.pause(); }, 8500)
-// }
-// pauseVid()
